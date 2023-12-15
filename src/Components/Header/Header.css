@@ -1,0 +1,106 @@
+   @import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Lilita+One&family=Nova+Square&family=Rubik+Bubbles&display=swap');
+
+.Header__container {
+
+       display: flex;
+       align-items: center;
+
+   }
+h1.empowering{
+   line-height: 3rem;
+}
+   .Header__container img {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+   }
+   .color-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(126deg, rgba(27,10,71,0.9808298319327731) 34%, rgba(45,122,138,1) 58%);
+      opacity: 0.9;
+   }
+
+   .header__contents{
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-49%, -49%);
+
+}
+
+   .header__contents h1.edumax{
+     padding-bottom: 15px;
+   letter-spacing: .1em;
+
+
+   }
+   .header__contents h1{
+   
+     
+      color: #e0dfdc;
+      text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e
+      , 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+       0 4px 0 #282828, 0 5px 0 #262626, 
+       0 6px 0 #242424, 0 7px 0 #222, 
+       0 8px 0 #202020, 0 9px 0 #1e1e1e, 
+       0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+        0 12px 0 #181818, 0 13px 0 #161616, 
+        0 14px 0 #141414, 0 15px 0 #121212, 0 
+        22px 30px rgba(0,0,0,0.9); 
+    }
+
+  
+    .header__contents p{
+         padding-top: 50px;
+         color: white;
+         font-family: cursive;
+    
+   
+   
+   }
+   .header__contents button{
+      color: white;
+      cursor: pointer;
+      font-family: Aoboshi One;
+      padding: 10px;
+      width: 150px;
+      margin-top: 100px;
+      border-radius: 10px;
+      border: none;
+      font-weight: 500;
+      background:  linear-gradient(318deg, rgba(255,255,255,0) 0%,
+      rgba(8,255,248,0.8295693277310925) 15%, rgba(0,1,255,1) 29%, rgba(232,42,42,0.9780287114845938) 80%
+     , rgba(214,83,176,0.6306897759103641) 100%);
+}
+.header__contents button:hover{
+
+background: linear-gradient(318deg, rgba(0,1,255,1) 16%, rgba(232,42,42,0.9780287114845938) 44%, rgba(247,6,6,1) 64%, rgba(214,83,176,1) 71%, rgba(8,255,248,0.9808298319327731) 100%);
+font-size: 14px;
+}
+
+    @media screen and (max-width: 768px) {
+      .header__contents h1.edumax {
+      margin-top: 40px;         }
+      .header__contents h1 {
+      font-size: 29px;       
+      }
+    }
+   
+    @media screen and (max-width: 458px) {
+      .header__contents h1.empowering {
+         top: 60%;
+      font-size: 23px; 
+      letter-spacing: 2px; 
+      line-height: 1.7rem;
+      }
+    }
+   
+
+
+   

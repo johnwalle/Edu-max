@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');.signin-container {
+  position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: rgba(8, 118, 91, 0.6);
+  }
+  .signUp_contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(174deg, rgba(26,31,62,1) 30%, rgba(97,71,154,1) 57%, rgba(29,29,36,1) 85%, rgba(26,36,214,1) 100%);
+    padding: 100px;
+    width: 70%;
+    height: 80%;
+    border-radius: 20px;
+  }
+  .signUp_contents h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 27px;
+    
+  }
+  
+
+  .image-container img{
+    width: 300px ;
+    height: 100%;
+    height: auto;
+    position: absolute;
+    clip-path: polygon(0 50% , 100% 0,  100%);
+    margin-left: -150px;
+  }
+  
+  .signin-container h1 {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 300px;
+    max-width: 100%;
+  }
+  
+  button.Signsubmit {
+    padding: 0.5rem 1rem;
+    background:  linear-gradient(318deg, rgba(255,255,255,0) 0%,
+    rgba(8,255,248,0.8295693277310925) 15%, rgba(0,1,255,1) 29%, rgba(232,42,42,0.9780287114845938) 80%
+   , rgba(214,83,176,0.6306897759103641) 100%);    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: Aoboshi One;
+    font-size: 14px;
+    margin-top: 20px;
+    width: 50%;
+  }
+  
+  button.Signsubmit:hover {
+    background: linear-gradient(318deg, rgba(0,1,255,1) 16%, rgba(232,42,42,0.9780287114845938) 44%, rgba(247,6,6,1) 64%, rgba(214,83,176,1) 71%, rgba(8,255,248,0.9808298319327731) 100%);
+
+
+  }
+  
+ .errorMessage{
+  color: red;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .form-group label{
+  color: rgb(180, 179, 179);
+  margin-bottom: 10px;
+ font-family: cursive;
+
+
+ }
+ input.placeholder{
+  color: black
+ }
+ .img__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px ;
+
+}
+
+ img.logo__img{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+}
+@media (max-width:700px){
+  .signUp_contents{
+    width: 80%;
+  }
+
+
+}

@@ -1,0 +1,20 @@
+.navbar__container .mainnavbar__rightcontents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__container .mainnavbar__rightcontents .mainnavbar__links{
+    display: flex;
+    align-items: center;
+}
+.mainnavbar__links p a{
+    padding-left: 30px;
+}
+.mainnavbar__links span{
+    margin-right: 7px;
+}
+
+.mainnavbar__cont{
+    height: 230px;
+}
